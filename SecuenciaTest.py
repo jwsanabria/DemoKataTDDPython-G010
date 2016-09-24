@@ -8,3 +8,6 @@ class SecuenciaTest(TestCase):
 
     def test_estadisticas_cadenaConUnNumero(self):
         self.assertEqual(Secuencia().estadisticas("1"), [1, ], "Cadena con un numero")
+
+    def test_estadisticas_cadenaConDosNumeros(self):
+        self.assertEqual(Secuencia().estadisticas("1,3"), [2, ], "Cadena con dos numeros")
