@@ -1,5 +1,5 @@
 __author__ = 'Grupo10'
 
 class Secuencia :
-    def estadisticas(cadena):
-        pass
+    def estadisticas(self, cadena):
+        return [0, ]

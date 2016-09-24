@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-import Secuencia
+from Secuencia import Secuencia
 
 class SecuenciaTest(TestCase):
     def test_estadisticas(self):
