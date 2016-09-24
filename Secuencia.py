@@ -9,6 +9,6 @@ class Secuencia :
             if len(numeros) == 2:
                 return [len(numeros), int(min(numeros))]
             else:
-                return [len(numeros),]
+                return [len(numeros), int(min(numeros))]
         else:
             return [1,3]
