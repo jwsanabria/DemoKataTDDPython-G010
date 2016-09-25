@@ -11,4 +11,4 @@ class Secuencia :
             else:
                 return [len(numeros), int(min(numeros))]
         else:
-            return [1, int(cadena)]
+            return [1, int(cadena), int(cadena)]
