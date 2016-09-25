@@ -7,7 +7,7 @@ class Secuencia :
         elif "," in cadena:
             numeros = cadena.split(",")
             if len(numeros) == 2:
-                return [len(numeros), int(min(numeros))]
+                return [len(numeros), int(min(numeros)), int(max(numeros))]
             else:
                 return [len(numeros), int(min(numeros))]
         else:
