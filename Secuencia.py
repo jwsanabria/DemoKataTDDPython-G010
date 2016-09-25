@@ -3,7 +3,7 @@ __author__ = 'Grupo10'
 class Secuencia :
     def estadisticas(self, cadena):
         if cadena == "":
-            return [0, 0]
+            return [0, 0, 0]
         elif "," in cadena:
             numeros = cadena.split(",")
             if len(numeros) == 2:
@@ -11,4 +11,4 @@ class Secuencia :
             else:
                 return [len(numeros), int(min(numeros))]
         else:
-            return [1,3]
+            return [1, int(cadena)]
